@@ -3,18 +3,18 @@ This plugin scraps trough all posts that contain the default iframe based audio 
 Then replace them with instances of a div with two buttons "Play" & "Add to Queue"
 jPlayer will appear wherever you place the class="jp-player" div and all its inner html
 
-// Turn draggable off/on (0/1)
+Turn draggable off/on (0/1)
+~~~~
 var Draggable = 0
-
-// Post path in CSS format
+~~~~
+Post path in CSS format
+~~~~
 var PostPath = "#posts #indexaudioo"
-// iframe path in CSS format relative to PostPath
+~~~~
+iframe path in CSS format relative to PostPath
+~~~~
 var iframePath = "span .audio_player iframe"
-In this example the iframes path results in "#posts #indexaudioo span .audio_player iframe"
-
-// Variables to access window size more easily
-var WindowWidth = $(window).width();
-var WindowHeight = $(window).height();
+~~~~
 
 Since there is no file hosting in tumblr I used the following dependencies (see index.html)
 ~~~~
