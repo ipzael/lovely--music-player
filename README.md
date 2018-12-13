@@ -17,6 +17,7 @@ var WindowWidth = $(window).width();
 var WindowHeight = $(window).height();
 
 Since there is no file hosting in tumblr I used the following dependencies (see index.html)
+~~~~
 https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/skin/blue.monday/css/jplayer.blue.monday.min.css
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
 https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css
@@ -24,3 +25,4 @@ https://code.jquery.com/jquery-1.12.4.js
 https://code.jquery.com/ui/1.12.1/jquery-ui.js
 Https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js
 https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/add-on/jplayer.playlist.min.js
+~~~~
